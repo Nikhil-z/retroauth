@@ -1,5 +1,6 @@
 package com.andretietz.retroauth
 
+import com.andretietz.retroauth.Utils
 import okhttp3.Request
 import org.junit.Assert
 import org.junit.Test

@@ -1,5 +1,12 @@
 package com.andretietz.retroauth
 
+import com.andretietz.retroauth.AuthenticationRequiredException
+import com.andretietz.retroauth.Authenticator
+import com.andretietz.retroauth.CredentialInterceptor
+import com.andretietz.retroauth.CredentialStorage
+import com.andretietz.retroauth.MethodCache
+import com.andretietz.retroauth.OwnerStorage
+import com.andretietz.retroauth.RequestType
 import com.nhaarman.mockitokotlin2.any
 import com.nhaarman.mockitokotlin2.anyOrNull
 import com.nhaarman.mockitokotlin2.doAnswer

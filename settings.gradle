@@ -1,5 +1,7 @@
 include ':retroauth'
 include ':retroauth-android'
-include ':demoandroid'
+include ':retroauth-desktop'
+include ':demo-android'
+include ':demo-desktop'
 
 rootProject.name = 'retroauth-root'
